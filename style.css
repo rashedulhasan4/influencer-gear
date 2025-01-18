@@ -65,7 +65,6 @@
     display: flex;
   }
 
-
   /*-------Header Section----- */
   /* Nav Section  */
   header {
@@ -225,4 +224,21 @@
   font-size: 0.875rem;
   margin-top: 3px;
   color: rgba(128, 128, 128, 0.5);
+}
+.see-more{
+  margin-top: 50px;
+  justify-content: end;
+}
+.see-more-t{
+  color: #E02C6D;
+  margin-right: 8px;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.see-more-arrow{
+font-size: 24px;
+font-weight: bold;
+color: #E02C6D;
+width: 24px;
+height: 24px;
 }
