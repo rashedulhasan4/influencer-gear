@@ -227,7 +227,7 @@
 }
 .see-more{
   margin-top: 50px;
-  justify-content: end;
+  text-align: end;
 }
 .see-more-t{
   color: #E02C6D;
@@ -306,4 +306,28 @@ height: 24px;
   width: 32px;
   height: 32px;
   margin-right: 16px;
+}
+
+
+/* responsive for small device  */
+@media screen and (max-width:576px) {
+  .hide{
+    visibility: hidden;
+  }
+  header{
+    margin-top: 35px;
+    max-width: 576px;
+    padding: 0px 16px 0px 16px;
+  }
+  header nav{
+    flex-direction: column;
+  }
+  .links-img-1, .links-img-2{
+    width: 20px;
+    height: 20px;
+}
+.links ul{
+  gap: 9px;
+  margin-top: 15px;
+}
 }
