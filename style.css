@@ -114,7 +114,7 @@
 .banner-text p{
   width: 505px;
   margin: 16px 0px;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 1rem;
 }
 .banner-text img{
@@ -329,5 +329,37 @@ height: 24px;
 .links ul{
   gap: 9px;
   margin-top: 15px;
+}
+
+/* banner section  */
+.banner-container{
+  flex-direction: column-reverse;
+  gap : 14px;
+  margin-top: 22px;
+}
+.banner-img{
+  background-image: url(./images/Circle\ design.svg);
+  background-position: 50px 0px 0px 0px;
+  width: 257px;
+  height: 257px;
+}
+.banner-img img{
+  width: 202px;
+  height: 190px;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+.banner-text{
+  text-align: center;
+  margin: 14px 0px 50px 0px;
+  width: 321px;
+}
+.banner-text h3{
+  font-size: 1.75rem;
+}
+.banner-text p{
+  font-size: 0.875rem;
+  margin: 15px 0px 20px 0px;
+  width: 100%;
 }
 }
