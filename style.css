@@ -336,6 +336,7 @@ height: 24px;
   flex-direction: column-reverse;
   gap : 14px;
   margin-top: 22px;
+  margin-bottom: 0px;
 }
 .banner-img{
   background-position: 50px 0px 0px 0px;
@@ -360,5 +361,18 @@ height: 24px;
   font-size: 0.875rem;
   margin: 15px 0px 20px 0px;
   width: 100%;
+}
+
+/* sponser section  */
+.sponsers{
+  margin: 0px auto 50px auto;
+}
+.sponsers-container{
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border: none;
+  padding: 16px 36px;
 }
 }
