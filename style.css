@@ -394,7 +394,24 @@ height: 24px;
   line-height: 0px;
 }
 .see-more{
-  margin-right: 16px;
-  margin-top: 32px;
+  margin: 32px 16px 50px 0px;
+}
+
+/* Feature Section  */
+.feature-container{
+  flex-direction: column-reverse;
+  gap: 30px;
+  margin: 0px 0px 50px 0px;
+  padding: 0px 16px;
+}
+.feature-text{
+  margin: 0px;
+  text-align: center;
+}
+.feature-text h4{
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: normal;
+  margin-bottom: 15px;
 }
 }
