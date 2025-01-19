@@ -414,4 +414,19 @@ height: 24px;
   line-height: normal;
   margin-bottom: 15px;
 }
+
+/* Footer Section  */
+.ftr{
+  padding: 50px 68px;
+}
+.ftr h4{
+  font-size: 1rem;
+}
+.ftr p{
+  font-size: 0.75rem;
+}
+.ftr-images img{
+  width: 24px;
+  height: 24px;
+}
 }
