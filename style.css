@@ -365,7 +365,7 @@ height: 24px;
 
 /* sponser section  */
 .sponsers{
-  margin: 0px auto 50px auto;
+  margin-bottom: 50px;
 }
 .sponsers-container{
   flex-wrap: wrap;
@@ -373,6 +373,28 @@ height: 24px;
   align-items: center;
   gap: 20px;
   border: none;
-  padding: 16px 36px;
+  padding: 0px 42px;
+}
+.sponsers-container img {
+  width: 60px;
+  height: 20px;
+}
+
+/* Popular Section  */
+.popular-cat-container{
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+  padding: 0px 15px;
+  gap: 15px;
+}
+.popular-cat h3{
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  line-height: 0px;
+}
+.see-more{
+  margin-right: 16px;
+  margin-top: 32px;
 }
 }
