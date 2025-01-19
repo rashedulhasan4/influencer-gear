@@ -405,8 +405,11 @@ height: 24px;
   padding: 0px 16px;
 }
 .feature-text{
-  margin: 0px;
+  margin: 0px auto;
   text-align: center;
+  max-width: 240px;
+  font-size: 0.7rem;
+  line-height: normal;
 }
 .feature-container img{
   width: 90%;
